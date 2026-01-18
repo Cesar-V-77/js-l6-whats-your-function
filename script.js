@@ -11,3 +11,11 @@ var favoriteCookie = function (cookie) {
 };
 
 console.log(favoriteCookie("chocolate chip"));
+
+//Write a Function with 2 Parameters
+var introduce = function (name, occupation) {
+  return `My name is ${name} and I am a ${occupation}.`;
+};
+
+console.log(introduce("Cesar", "Web Developer"));
+console.log(introduce("Sarah", "Grapic Designer"));
