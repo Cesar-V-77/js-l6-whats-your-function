@@ -19,3 +19,12 @@ var introduce = function (name, occupation) {
 
 console.log(introduce("Cesar", "Web Developer"));
 console.log(introduce("Sarah", "Grapic Designer"));
+
+//Create a Function to Capture Input
+var hydrationFeedback = function () {
+  var numGlasses = Number(
+    prompt("How many glasses of water have you had today?")
+  );
+};
+
+hydrationFeedback();
