@@ -25,6 +25,11 @@ var hydrationFeedback = function () {
   var numGlasses = Number(
     prompt("How many glasses of water have you had today?")
   );
+  if (numGlasses >= 8) {
+    console.log("Great job staying hydrated!");
+  } else {
+    console.log("You should drink more water.");
+  }
 };
 
 hydrationFeedback();
